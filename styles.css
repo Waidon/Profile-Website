@@ -75,9 +75,9 @@ hr {
 .picture {
  height: 200px;
  width: 200px;
-border-radius: 200%;
-align-items: center;
- 
+ border-radius: 200%;
+ align-items: center;
+ box-shadow: rgba(149, 190, 196, 0.8) 0 0 5px 5px;
 }
 
 .intro {
@@ -131,6 +131,7 @@ h1 {
 	border: 2px solid  #00818f;
   max-width: 800px;
   margin: 0 auto;
+
 }
 
 img .profile  {
@@ -288,7 +289,7 @@ padding-top: 5px;
     margin: 10px;
   }
 
-  .container_card {
+  .container_card, .card-group {
     padding-left: 50px;
     padding-right: 50px;
   }
@@ -396,10 +397,11 @@ color: #00818f;
 
 
 @media only screen and (min-width : 768px) and (max-width : 960px) {
-  .page_1 .nav{
+  .page_1 .nav {
+   
     margin:auto;
     display:block;
-    width:50;
+    width:50px;
     transition: width 2s;
 
   }
@@ -409,13 +411,19 @@ color: #00818f;
 
 @media only screen and (min-width : 569px) and (max-width : 767px) {
   .page_1 {
+
+    
     height: auto;
     display: block;
     overflow: hidden;
-    width: 99%;
+    width: 50%;
     transition: width 2s;
+    margin: auto 0;
+  
+
   }
-  .page_1 .nav ul {
+  .page_1 .nav ul  {
+   
     padding: 2% 1%;
     text-align: center;
     width: 98%;
@@ -435,6 +443,11 @@ color: #00818f;
 .page_1 .nav li a:hover, .page_1 .nav li a:active {
   display: block;
 }
+
+
+
+
+
 }
 
 @media only screen and (min-width : 240px) and (max-width : 568px) {
@@ -464,10 +477,24 @@ color: #00818f;
 .page_1 .nav li a:hover, .page_1 .nav li a:active {
   display: block;
 }
-.page_ {
+.page_1 {
   margin:auto;
   display:block;
-  width:95%; 
+  width:50%; 
+}
+
+h1, h2 {
+  font-size: 150%;
+  font-style: bold;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.work img {
+  height: 50%;
+  width: 50%;
 }
 
 
