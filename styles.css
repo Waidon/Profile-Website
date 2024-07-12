@@ -68,19 +68,13 @@ li {
 
 
 hr {
-	color: #0f2310;
-	border: 1px solid #0f2310;
+	color: green;
+	border: 1px solid green;
 	width: 100%;
 	align-items: center;
 }
  
-.picture {
- height: 200px;
- width: 200px;
- border-radius: 200%;
- align-items: center;
- box-shadow: rgba(116, 201, 120, 0.8) 0 0 5px 5px;
-}
+
 
 .intro {
   font-size: 20px;
@@ -97,11 +91,11 @@ hr {
   background-color: #0f2310;
 }
 
-h1 {
+#name, h1 {
   font-family: serif;
 	font-size: 90px;
 	
-  color: #0f2310;
+  color: #f7fcf7;
   animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: 1;
@@ -109,60 +103,9 @@ h1 {
     
 }
 
-.profile {
-  
-  padding: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  border-radius: 20px;
-	float: left;
-  max-width: 500px;
-  margin: 0 auto;
-  padding-bottom: 10px;
-text-wrap: wrap;
-  
-}
-
-.margin {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.introduction {
-  padding: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
-  border-radius: 20px;
-  max-width: 800px;
-  margin: 0 auto;
-  
-
-}
-
-img .profile  {
-  padding-bottom: 5px;
-  padding-top: 10px;
-}
-
 .myimages {
-  color: #4caf50 ;
+  color: #4caf50;
 }
-
-.linkedin {
-  height: 20px;
-  width: 20px;
-  display: inline;
-  padding-left: 2px;
-  padding-bottom: 2px;
-}
-
-.github {
-  height: 20px;
-  width: 20px;
-  display: inline;
-  padding-left: 2px;
-  padding-bottom: 2px;
-}
-
 
 .bi bi-geo-alt-fill {
   padding-bottom: 4px;
@@ -184,148 +127,30 @@ img .profile  {
     width: 100%;
   }
 }
-.page_1 {
-    height: 500px;
-    width: 500px;
-    align-items: center;
-    margin: auto 0;
+
+/*Footer*/
+
+#profile_picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
 }
 
-h2 {
-    font-size: 30px;
-    text-align: center;
-    color:#0f2310 ;
-}
-
-  h3 {
-    padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    font-size: 2em;
-    color:  #0f2310;
-  }
-
-.container {
+.Copyright {
   text-align: center;
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #0f2310;
-}
 
-  .tail {
-  text-align: center;
-  font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #0f2310;
-  }
-
-  .aws {
-    align-content: center;
-    height: 70px;
-    height: 70px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  }
-
-  #aws2 {
-    margin: 10px;
-  }
-
-  .homep {
-    font-size: 0.95em;
-    color:  #0f2310;
-    padding: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 20px;
-    border: 2px solid  #4caf50 ;
-    box-shadow: rgba(66, 136, 52, 0.8) 0 0 5px 5px;
-
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-
-
-.IBM {
-  align-content: center;
-  height: 50px;
-  height: 50px;
-  display: block;
-margin-left: auto;
-margin-right: auto;
-padding-bottom: 5px;
-padding-top: 5px;
 
 }
 
-  .development {
-    align-content: center;
-    height: 70px;
-    height: 70px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  }
-
-  #development2 {
-    margin: 10px;
-  }
-
-  .laptop {
-    align-content: center;
-    height: 70px;
-    height: 70px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  }
-
-  #laptop2 {
-    margin: 10px;
-  }
-
-  .container_card, .card-group {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-
-  footer {
-    background: #4caf50 ;
-    height: 40px;
-    border: 1px solid #0f2310;
-    margin-top:10px;
-    border-radius: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom: 5px;
-}
-footer p {
-    color: white;
-    margin: 0;
-    padding: 10px 0 0 0;
-    text-align: center;  
-  }
 
 .card-title {
 color:  #0f2310;
+font-size: 20px;
+font-weight: 500;
 }
 
 .card-body {
-  border: 1px solid #4caf50 ;
+  border: 1px solid #0f2310;
  
 }
 
@@ -336,6 +161,7 @@ color: #4caf50 ;
 
 .text-body-secondary {
 color: #0f2310;
+font-size: 15px;
 }
 
 .card-img-top {
@@ -363,6 +189,11 @@ color: #0f2310;
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px 10px;
+}
+
+#position {
+  font-size: 30px;
+  text-align: center;
 }
 
   @media (max-width : 960px) {

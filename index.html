@@ -13,6 +13,9 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="./styles.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome for Icons -->
 
     <title>Personal Website</title>
   </head>
@@ -34,137 +37,109 @@
     </ul>
     <hr />
 
-    <div class="container">
-      <h1>Waidon Cloete</h1>
-    </div>
+  
 
-    <img
-      src="./images/Home.svg"
-      alt="home logo"
-      class="page_1"
-      class="img-fluid"
-    />
+    <div class="bg-cover bg-center h-screen flex items-center justify-center"
+     style="background-image: url('https://images.unsplash.com/photo-1675268186872-f1e01d401d5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+  <div class="text-center text-white-900">
+    <h1 class="text-4xl sm:text-6xl md:text-7xl font-bold leading-tight mb-4 text-white-900" id="name">Hi, I'm Waidon</h1>
+    <p class="text-lg sm:text-xl md:text-2xl text-gray-200 mb-6">A Front-End Web Developer who loves being creative.</p>
+    <a href="#introduction" class="bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-lg text-lg font-semibold transition duration-300">Learn More About Me</a>
+  </div>
+</div>
 
     <hr />
     <br />
-    <div class="margin">
-      <div class="profile">
-        <img src="./images/Linkedin Photo.jpeg" alt="profile" class="picture" />
-        <br />
-        <p class="intro">
-          Desktop Assessor at <a href="https://www.thesl.co.za/">Thesl</a>
-        </p>
-        <p class="intro">
-          <a href="https://www.linkedin.com/in/waidon-cloete/">LinkedIn</a
-          ><img
-            src="./images/linkedin.png"
-            alt="LinkedIn Logo"
-            class="linkedin"
-          />
-        </p>
-        <p class="intro">
-          <a href="https://github.com/Waidon">Github</a
-          ><img src="./images/github.png" alt="Github Logo" class="github" />
-        </p>
-        <p class="intro">
-          Cape Town, South Africa<svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-geo-alt-fill"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"
-            />
-          </svg>
-        </p>
+   
       </div>
    
       <br />
 
       <br />
+      <section class="bg-white-100 py-12">
+  <div class="container mx-auto px-4 text-center">
+    <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-4" id="introduction">About Me</h1>
+    <p class="text-lg sm:text-xl md:text-2xl text-green-900 mb-6"> I enjoy learning new things and about Technology. I enjoy
+      taking long walks on the beach, and reading books, with a hot cup of
+      coffee &#9749;. I love capturing
+      <a href="./gallery.html" class="myimages">images</a> of nature, who
+      does not &#128525; the ocean right! I bring a diverse skill set and a
+      passion for innovation to the table.With a background in Technical
+      Support and a qualification in Data Communications and Network
+      Support, coupled with hands-on training in IT support from Coursera
+      and Google, I have honed my abilities in technical troubleshooting, IT
+      security, system administration, and computer networking.</p>
+  </div>
+</section>
 
-      <div class="introduction">
-        <h2>Introduction</h2>
-        <h3>
-          I enjoy learning new things and learning about Technology. I enjoy
-          taking long walks on the beach, and reading books, with a hot cup of
-          coffee &#9749;. I love capturing
-          <a href="./gallery.html" class="myimages">images</a> of nature, who
-          does not &#128525; the ocean right! I bring a diverse skill set and a
-          passion for innovation to the table.With a background in Technical
-          Support and a qualification in Data Communications and Network
-          Support, coupled with hands-on training in IT support from Coursera
-          and Google, I have honed my abilities in technical troubleshooting, IT
-          security, system administration, and computer networking.
-        </h3>
+<!--Skills Offered-->
+<section class="bg-green-900 py-12">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center text-white-900 mb-8">My Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+        <div class="text-green-500 mb-4">
+          <i class="fas fa-laptop-code fa-3x"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+        <p class="text-gray-600">Building responsive and functional websites using the latest technologies.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+        <div class="text-green-500 mb-4">
+          <i class="fas fa-paint-brush fa-3x"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+        <p class="text-gray-600">Designing intuitive and engaging user interfaces for web applications.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+        <div class="text-green-500 mb-4">
+          <i class="fas fa-mobile-alt fa-3x"></i>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Responsive Design</h3>
+        <p class="text-gray-600">Ensuring websites look great on all devices, from desktops to mobile phones.</p>
       </div>
     </div>
   </div>
-    <br />
-    <hr />
+</section>
 
+    
+   
     <br />
     <br />
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <p class="homep" id="aws2">
-            <img src="./images/AWS.png" alt="AWS logo" class="aws" />Moreover,
-            my proficiency as an AWS Cloud Practitioner adds a layer of
-            expertise in cloud infrastructure and architectural principles,
-            aligning seamlessly with modern web development practices. I am
-            well-versed in significant AWS services, compliance standards,
-            security protocols, and account management, ensuring robust and
-            scalable solutions for web projects.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <p class="homep" id="development2">
-            <img
-              src="./images/Coding icon.png"
-              alt="coding icon"
-              class="development"
-            />Beyond technical acumen, I am driven by a love for creativity and
-            innovation, evident in my pursuits as a web developer and a
-            photographer. I am continuously expanding my knowledge base, staying
-            abreast of the latest trends and technologies in Information
-            Technology.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <p class="homep" id="laptop2">
-            <img src="./images/Verification.png" alt="phone" class="laptop" />In
-            my professional journey, I have contributed to various roles, from
-            providing technical expertise as a Desktop Assessor to demonstrating
-            leadership in training initiatives as a Lead Verification
-            Specialist. My experience extends to quality analysis tasks,
-            administrative support, and logistics management, showcasing my
-            adaptability and versatility.
-          </p>
-        </div>
-      </div>
-    </div>
     <br />
-
-    <br />
-    <div class="tail">
-      <p class="homep">
-        <img src="./images/IBM.png" alt="IBM logo" class="IBM" />With
-        certifications ranging from front-end development with IBM to
-        comprehensive IT support training from various platforms, I possess a
-        robust skill set that includes HTML, CSS, responsive web design, and
-        familiarity with the Software Development Life Cycle (SDLC).
-        Additionally, my proficiency in operational procedures, software
-        troubleshooting, and utilizing tools like Bootstrap and Gmail
-        underscores my commitment to delivering high-quality solutions.
-      </p>
-    </div>
+    
     <br />
   </body>
-  <footer>
-    <p>Copyright &copy; 2024 Waidon</p>
+  <footer class="bg-green-900 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col md:flex-row items-center justify-between">
+        <div class="flex-shrink-0 mb-4 md:mb-0">
+          <img src="./images/Linkedin Photo.jpeg" alt="Logo" class="h-16 w-auto max-w-md" id="profile_picture"> 
+        </div>
+        <div class="flex flex-col md:flex-row md:items-center">
+        
+          <div class="md:mr-8 mb-4 md:mb-0">
+            <h4 class="text-lg font-semibold">Contact</h4>
+            <p class="text-gray-400">Email: waidonj11@gmail</p><p class="text-gray-400">Phone: 073 357 2537</p>
+            
+          </div>
+          <div>
+            <h4 class="text-lg font-semibold">Follow Me</h4>
+            <div class="flex space-x-4 mt-2">
+             <a href="https://www.linkedin.com/in/waidon-cloete/" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/Waidon" target="_blank" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i></a>
+              <br>
+              <br>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+    <div class="Copyright">
+      <p >Copyright &copy; 2024 Waidon</p>
+
+     </div>
   </footer>
 </html>
