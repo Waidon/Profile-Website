@@ -1,6 +1,6 @@
 body {
 	background: white;
-	color:  #FCCB06;
+	color:  #0f2310;
 	font-family: sans-serif, serif, monospace;
 	text-align: center;
 }
@@ -41,13 +41,15 @@ body {
 
 
 a {
-  color:  #FCCB06;
+  color:  #0f2310;
   text-decoration:none;
 }
 
 a:hover {
-  color: #00818f;
-  background-color: azure;
+  color: #0f2310;
+  background-color: #4caf50;
+font-weight: bold;
+
   padding: 1px;
 }
 
@@ -66,8 +68,8 @@ li {
 
 
 hr {
-	color: #00818f;
-	border: 1px solid #00818f ;
+	color: #0f2310;
+	border: 1px solid #0f2310;
 	width: 100%;
 	align-items: center;
 }
@@ -77,29 +79,29 @@ hr {
  width: 200px;
  border-radius: 200%;
  align-items: center;
- box-shadow: rgba(149, 190, 196, 0.8) 0 0 5px 5px;
+ box-shadow: rgba(116, 201, 120, 0.8) 0 0 5px 5px;
 }
 
 .intro {
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #00818f;
+  color: #0f2310;
 }
 .intro a {
-  color: #00818f;
+  color: #0f2310;
   text-decoration: none;
 }
 
 .intro a:hover {
   color: #ffffff;
-  background-color: #FCCB06;
+  background-color: #0f2310;
 }
 
 h1 {
   font-family: serif;
 	font-size: 90px;
 	
-  color: #00818f;
+  color: #0f2310;
   animation-duration: 3s;
   animation-name: slidein;
   animation-iteration-count: 1;
@@ -109,13 +111,15 @@ h1 {
 
 .profile {
   
-  padding: 5px;
+  padding: 10px;
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 20px;
-	border: 2px solid #00818f ;
+	float: left;
   max-width: 500px;
   margin: 0 auto;
+  padding-bottom: 10px;
+text-wrap: wrap;
   
 }
 
@@ -128,9 +132,9 @@ h1 {
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 20px;
-	border: 2px solid  #00818f;
   max-width: 800px;
   margin: 0 auto;
+  
 
 }
 
@@ -140,7 +144,7 @@ img .profile  {
 }
 
 .myimages {
-  color: #00818f;
+  color: #4caf50 ;
 }
 
 .linkedin {
@@ -188,17 +192,17 @@ img .profile  {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
-    color:#00818f;
+    color:#0f2310 ;
 }
 
   h3 {
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 30px;
-    color:  #FCCB06;
+    font-size: 2em;
+    color:  #0f2310;
   }
 
 .container {
@@ -207,16 +211,16 @@ h2 {
   font-family: 'Times New Roman', Times, serif;
   padding-left: 10px;
   padding-right: 10px;
-  color: #232323;
+  color: #0f2310;
 }
 
   .tail {
-    text-align: center;
+  text-align: center;
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   padding-left: 10px;
   padding-right: 10px;
-  color: #232323;
+  color: #0f2310;
   }
 
   .aws {
@@ -235,12 +239,15 @@ h2 {
   }
 
   .homep {
-    color: #00818f;
+    font-size: 0.95em;
+    color:  #0f2310;
     padding: 5px;
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 20px;
-    border: 2px solid  #FCCB06 ;
+    border: 2px solid  #4caf50 ;
+    box-shadow: rgba(66, 136, 52, 0.8) 0 0 5px 5px;
+
     max-width: 1000px;
     margin: 0 auto;
   }
@@ -295,9 +302,9 @@ padding-top: 5px;
   }
 
   footer {
-    background: #00818f;
+    background: #4caf50 ;
     height: 40px;
-    border: 1px solid #00818f;
+    border: 1px solid #0f2310;
     margin-top:10px;
     border-radius: 5px;
     padding-left: 5px;
@@ -314,25 +321,25 @@ footer p {
   }
 
 .card-title {
-color:  #FCCB06;
+color:  #0f2310;
 }
 
 .card-body {
-  border: 1px solid #00818f;
+  border: 1px solid #4caf50 ;
  
 }
 
 .card-text {
-color: #00818f;
+color: #4caf50 ;
 
 }
 
 .text-body-secondary {
-color: #00818f;
+color: #0f2310;
 }
 
 .card-img-top {
-  border: 1px solid #00818f;
+  border: 1px solid #0f2310;
   
 }
 
