@@ -142,7 +142,10 @@ hr {
 
 }
 
+.container_card, .skills {
 
+  padding-left: 10px;
+}
 .card-title {
 color:  #0f2310;
 font-size: 20px;
