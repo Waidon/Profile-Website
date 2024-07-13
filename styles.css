@@ -116,6 +116,12 @@ hr {
   overflow: hidden;
 }
 
+/*Gallery*/
+
+#gallery1 a:hover {
+  background-color: white;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -126,6 +132,22 @@ hr {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+/*Home button*/
+.iconbutton svg{
+  width: 40px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #f8f8f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  cursor: pointer;
+  
 }
 
 /*Footer*/
@@ -142,9 +164,13 @@ hr {
 
 }
 
+/*Certifications, Skills and Experience*/
+
 .container_card, .skills {
 
   padding-left: 10px;
+  padding-right: 10px;
+
 }
 .card-title {
 color:  #0f2310;
@@ -180,6 +206,10 @@ font-size: 15px;
 .educationc {
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.skills {
+  padding-right: 10px;
 }
 
 .work {
