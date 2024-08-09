@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,27 +15,59 @@
     <link rel="stylesheet" href="./styles.css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Font Awesome for Icons -->
 
     <title>Personal Website</title>
   </head>
   <body>
-    <ul class="nav">
-      <li><a href="./index.html">Home</a></li>
-      &nbsp;
+   
+        <!-- Navigation Bar -->
+        <nav class="bg-lime-300" id="navbar">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <div class="flex items-center space-x-4">
+                        <!-- Logo -->
+                        <a href="./gallery.html" class="flex items-center py-1 px-2">
+                            <img src="./images/LOGO.jpg" alt="Logo" class="h-20 w-20">
+                        </a>
+                    </div>
+                    <!-- Primary Nav -->
+                    <div class="hidden md:flex items-center space-x-1" >
+                        <a href="./index.html" class="py-1 px-3 text-lime-800 text-3xl">Home</a>
+                        <a href="./education.html" class="py-1 px-3 text-lime-800  text-3xl">Education</a>
+                        <a href="./certifications.html" class="py-1 px-3 text-lime-800  text-3xl">Certifications</a>
+                        <a href="./skills.html" class="py-1 px-3 text-lime-800  text-3xl">Skills</a>
+                        <a href="./experience.html" class="py-1 px-3 text-lime-800 text-3xl">Experience</a>
+                    </div>
+                    <!-- Mobile menu button -->
+                    <div class="md:hidden flex items-center">
+                        <button class="outline-none mobile-menu-button">
+                            <svg class="w-6 h-6 text-lime-900" fill="none" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                                <path d="M4 6h16M4 12h16m-7 6h7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="hidden mobile-menu">
+                <ul id="mobile">
+                    <li class="active"><a href="./index.html" class="block text-sm px-4 py-2">Home</a></li>
+                    <li><a href="./education.html" class="block text-sm px-4 py-2 ">Education</a></li>
+                    <li><a href="./certifications.html" class="block text-sm px-4 py-2 ">Certifications</a></li>
+                    <li><a href="./skills.html" class="block text-sm px-4 py-2 ">Skills</a></li>
+                    <li><a href="./experience.html" class="block text-sm px-4 py-2 0">Experience</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+      
+    </body>
+    
+    </html>
+    
 
-      <li><a href="./education.html">Education</a></li>
-      &nbsp;
-
-      <li><a href="certifications.html">Certifications</a></li>
-      &nbsp;
-
-      <li><a href="./skills.html">Skills</a></li>
-      &nbsp;
-
-      <li><a href="./experience.html">Experience</a></li>
-    </ul>
     <hr />
 
   
@@ -171,5 +204,12 @@
 
      
   </footer>
-  
+  <script>
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    });
+</script>
 </html>
