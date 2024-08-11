@@ -11,7 +11,7 @@ body {
   padding-bottom: 10px;
 }
 
-a:hover {
+#navbar a:hover {
   color: rgb(255 255 255);
   background-color: rgb(26 46 5); 
   padding: 1px;
@@ -50,7 +50,9 @@ margin-right: 10px;
 
 .myimages {
   color: #4caf50;
+  font-style: italic;
 }
+
 
 .bi bi-geo-alt-fill {
   padding-bottom: 4px;
