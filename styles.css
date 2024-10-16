@@ -21,7 +21,17 @@ body {
   
 }
 
+#logo_image {
 
+ padding-top: 10px;
+
+}
+
+#image_link a:hover {
+  background-color: none;
+  
+
+}
 
 #mobile a:hover  {
 color: rgb(243 244 246);
